@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Hotline.SelectedTheme" parent="Theme.Hotline.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="Theme.Hotline.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Action Icons -->
+        <item name="hotlineSendIcon">@drawable/ic_send</item>
+        <item name="hotlineAttachIcon">@drawable/ic_attach</item>
+
+        <!-- Avatar -->
+        <item name="hotlineAvatarIcon">@drawable/ic_avatar</item>
+
+        <!-- Chat Bubble-->
+        <item name="hotlineChatBubbleLeft">@drawable/left</item>
+        <item name="hotlineChatBubbleRight">@drawable/right</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.AgentName" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.UserMessage" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.AgentMessage" parent="TextAppearance.Hotline.Medium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.UserMessageTime" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Hotline.AgentMessageTime" parent="TextAppearance.Hotline.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.Hotline.MessageReplyView">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/hotline_message_reply_frame_min_height</item>
+    </style>
+
+</resources>

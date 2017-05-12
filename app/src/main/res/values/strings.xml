@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HotlineDemo</string>
+    <string name="hotline_file_provider_authority">com.example.droiddebo.hotlinedemo</string>
+</resources>
